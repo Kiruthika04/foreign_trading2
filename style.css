@@ -1,0 +1,152 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.menu-bar
+{
+    height: 100px;
+    background-color: rgb(151, 217, 243);
+    background-size: cover;
+    background-position: center;
+}
+.menu-bar img
+{
+    width: 200px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.nav-link
+{
+    font-size: 16px;
+    margin: 2px;
+}
+.navbar-nav
+{
+    text-align: right;
+}
+.menu-bar .navbar-toggler
+{
+    color: black;
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+.dropbtn
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu
+{
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}  
+
+.dropdown-menu a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+    background-color: #3e8e41;
+}
+
+.nav-item dropdown-button
+{
+    padding:0.3rem 1rem;
+    font-size: 1.4rem;
+    background-color: pink;
+    color: black;
+}
+.resource
+{
+    height: 40px;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: pink;
+    color: white;
+}
+.login
+{
+    height: 40px;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: pink;
+    color: white;
+}
+.joinfree 
+{
+    height: 40px;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: pink;
+    color: white;
+}
+.loginform
+{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-color: rgb(151, 217, 243);
+    font-size: 195%;
+}
+.commodity
+{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-color: rgb(151, 217, 243);
+    font-size: 195%;
+}
+.placeorder
+{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-color: rgb(151, 217, 243);
+    font-size: 195%;
+}
+.payment
+{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-color: rgb(151, 217, 243);
+    font-size: 195%;
+}
+.banner
+{
+    padding-top: 2%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Images/ForeignTrading.png);
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
